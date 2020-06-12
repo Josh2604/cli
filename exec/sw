@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# . /Users/josueandres/Desktop/MyProjects/CLI_/cli/bin/activate
+
+. /usr/local/ryno/cli/bin/activate
+cd /usr/local/ryno/cli/bin/activate && python sw "$@"

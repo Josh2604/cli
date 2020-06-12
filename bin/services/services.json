@@ -1,0 +1,434 @@
+{"services":[
+  {
+    "app": "poseidonapireports",
+    "host": "poseidonapireports.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidondashboard",
+    "host": "poseidondashboard.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "apiworklog",
+    "host": "apiworklog.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "lexboxapidataroom",
+    "host": "lexboxapidataroom.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Stopped"
+  },
+  {
+    "app": "poseidonapiwarehousing",
+    "host": "poseidonapiwarehousing.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "siapireports",
+    "host": "siapireports.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonapishipments",
+    "host": "poseidonapishipments.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidoncustomer",
+    "host": "poseidoncustomer.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonapicostmanagement",
+    "host": "poseidonapicostmanagement.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidoncatalog",
+    "host": "poseidoncatalog.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonapialerts",
+    "host": "poseidonapialerts.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "instraestructure-test",
+    "host": "instraestructure-test.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidoninbound",
+    "host": "poseidoninbound.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "lexboxapiclients",
+    "host": "lexboxapiclients.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Stopped"
+  },
+  {
+    "app": "rld",
+    "host": "rld.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "salesapicross",
+    "host": "salesapicross.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "siapidatamyne",
+    "host": "siapidatamyne.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonsocketservices",
+    "host": "poseidonsocketservices.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonmail",
+    "host": "poseidonmail.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonbooking",
+    "host": "poseidonbooking.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "siapistatistics",
+    "host": "siapistatistics.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "siapiusers",
+    "host": "siapiusers.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonapirates",
+    "host": "poseidonapirates.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonfiles",
+    "host": "poseidonfiles.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "magiclogdashboard",
+    "host": "magiclogdashboard.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonreports",
+    "host": "poseidonreports.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "siapifairs",
+    "host": "siapifairs.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonapicomments",
+    "host": "poseidonapicomments.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "siapiopportunities",
+    "host": "siapiopportunities.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonapievents",
+    "host": "poseidonapievents.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "apiposeidon",
+    "host": "apiposeidon.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonapiadmin",
+    "host": "poseidonapiadmin.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "salesintelligenceapisearch",
+    "host": "salesintelligenceapisearch.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "si-api-oauth",
+    "host": "si-api-oauth.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidondirectory",
+    "host": "poseidondirectory.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "doctorapicatalogs",
+    "host": "doctorapicatalogs.azurewebsites.net",
+    "resourceGroup": "DoctorLog",
+    "state": "Running"
+  },
+  {
+    "app": "doctorapioauth",
+    "host": "doctorapioauth.azurewebsites.net",
+    "resourceGroup": "DoctorLog",
+    "state": "Running"
+  },
+  {
+    "app": "doctorapievents",
+    "host": "doctorapievents.azurewebsites.net",
+    "resourceGroup": "DoctorLog",
+    "state": "Running"
+  },
+  {
+    "app": "doctorapiusers",
+    "host": "doctorapiusers.azurewebsites.net",
+    "resourceGroup": "DoctorLog",
+    "state": "Running"
+  },
+  {
+    "app": "doctorapipatients",
+    "host": "doctorapipatients.azurewebsites.net",
+    "resourceGroup": "DoctorLog",
+    "state": "Running"
+  },
+  {
+    "app": "sales-search-django",
+    "host": "sales-search-django.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "LexboxDataroom",
+    "host": "lexboxdataroom.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonapidashboard",
+    "host": "poseidonapidashboard.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "siapicrossgoapp",
+    "host": "siapicrossgoapp.azurewebsites.net",
+    "resourceGroup": "PoseidonResources",
+    "state": "Running"
+  },
+  {
+    "app": "rrapireports",
+    "host": "rrapireports.azurewebsites.net",
+    "resourceGroup": "MagicVision",
+    "state": "Running"
+  },
+  {
+    "app": "rrapimail",
+    "host": "rrapimail.azurewebsites.net",
+    "resourceGroup": "MagicVision",
+    "state": "Running"
+  },
+  {
+    "app": "rrapidashboard",
+    "host": "rrapidashboard.azurewebsites.net",
+    "resourceGroup": "MagicVision",
+    "state": "Running"
+  },
+  {
+    "app": "rrapishipments",
+    "host": "rrapishipments.azurewebsites.net",
+    "resourceGroup": "MagicVision",
+    "state": "Running"
+  },
+  {
+    "app": "rrapievents",
+    "host": "rrapievents.azurewebsites.net",
+    "resourceGroup": "MagicVision",
+    "state": "Running"
+  },
+  {
+    "app": "rrapiadmin",
+    "host": "rrapiadmin.azurewebsites.net",
+    "resourceGroup": "MagicVision",
+    "state": "Running"
+  },
+  {
+    "app": "rrapisearchengine",
+    "host": "rrapisearchengine.azurewebsites.net",
+    "resourceGroup": "MagicVision",
+    "state": "Running"
+  },
+  {
+    "app": "rrapialert",
+    "host": "rrapialert.azurewebsites.net",
+    "resourceGroup": "MagicVision",
+    "state": "Running"
+  },
+  {
+    "app": "rrapidocuments",
+    "host": "rrapidocuments.azurewebsites.net",
+    "resourceGroup": "MagicVision",
+    "state": "Running"
+  },
+  {
+    "app": "shipment-dev",
+    "host": "shipment-dev.azurewebsites.net",
+    "resourceGroup": "Development",
+    "state": "Stopped"
+  },
+  {
+    "app": "roldanapiadmindevelop",
+    "host": "roldanapiadmindevelop.azurewebsites.net",
+    "resourceGroup": "Development",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonevents-dev",
+    "host": "poseidonevents-dev.azurewebsites.net",
+    "resourceGroup": "Development",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonbooking-dev",
+    "host": "poseidonbooking-dev.azurewebsites.net",
+    "resourceGroup": "Development",
+    "state": "Running"
+  },
+  {
+    "app": "poseidoncomments-dev",
+    "host": "poseidoncomments-dev.azurewebsites.net",
+    "resourceGroup": "Development",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapidocument",
+    "host": "roldanapidocument.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapiadmin",
+    "host": "roldanapiadmin.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapimail",
+    "host": "roldanapimail.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapisearch",
+    "host": "roldanapisearch.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapidashboard",
+    "host": "roldanapidashboard.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapiaevents",
+    "host": "roldanapiaevents.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapiadmin-audit",
+    "host": "roldanapiadmin-audit.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapitrazabilidad",
+    "host": "roldanapitrazabilidad.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapireport",
+    "host": "roldanapireport.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapialmacenamiento",
+    "host": "roldanapialmacenamiento.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapialertas",
+    "host": "roldanapialertas.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "roldanapiaudit",
+    "host": "roldanapiaudit.azurewebsites.net",
+    "resourceGroup": "Roldan",
+    "state": "Running"
+  },
+  {
+    "app": "poseidonorder-dev",
+    "host": "poseidonorder-dev.azurewebsites.net",
+    "resourceGroup": "SalesIntelligence",
+    "state": "Running"
+  },
+  {
+    "app": "siapi-trips-sc-cw",
+    "host": "siapi-trips-sc-cw.azurewebsites.net",
+    "resourceGroup": "SalesIntelligence",
+    "state": "Running"
+  }
+]}

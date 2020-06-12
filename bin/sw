@@ -1,0 +1,61 @@
+#!/usr/local/Cellar/azure-cli/2.0.78/libexec/bin/python3.7
+
+import click
+import os
+from controllers.list_groups import list_services, print_services, get_one_service, get_one_group, list_groups
+
+@click.group()
+def cli():
+    """
+    \b                                                
+    ____                       _________ 
+   / __ \__  ______  ____     / ____/ (_)
+  / /_/ / / / / __ \/ __ \   / /   / / / 
+ / _, _/ /_/ / / / / /_/ /  / /___/ / /  
+/_/ |_|\__, /_/ /_/\____/   \____/_/_/   
+      /____/                             
+
+    \n
+    Welcome to command line inteface for azure services.
+    """
+    pass
+
+@click.command()
+@click.option('--group', default='', help='Resource group number')
+@click.option('--service', default='', help='Service number')
+def groups(group, service):
+    try:
+        if service != '' and group == '':
+            click.echo("You must especify a group of services")
+        else:
+            if group == '' and service == '':
+                os.system("sh list_services.sh")
+                list_groups()
+            else:
+                if group != '' and service != '':
+                    group = get_one_group(int(group))
+                    if group["Valid"] == True:
+                        serviceData = get_one_service(group["groupName"], int(service))
+                        if serviceData["Valid"] == True:
+                            os.system(f"sh launch_logs.sh {serviceData['serviceName']} {group['groupName']}")
+                        else:
+                            click.echo(serviceData["Message"])
+
+                    else: 
+                        click.echo(group["Message"])
+                else:
+                    group = get_one_group(int(group))
+                    if group["Valid"] == True:
+                        print_services(list_services(group["groupName"]), group["groupName"])
+                    else:
+                        click.echo(group["Message"])
+    except:
+        print ("\033[31m"+"Someting wrong, you must writing int value for group or service"+"\033[0m")
+        
+
+cli.add_command(groups)
+
+if __name__ == '__main__':
+    """Simple program that greets NAME for a total of COUNT times."""
+    cli()
+
