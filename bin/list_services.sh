@@ -4,7 +4,7 @@ function getServicesList(){
   color='\033[94m'
   ENDC='\033[0m'
   echo "$color Resouces Group: $ENDC"
-  VAR="$(az webapp list --query "[].{host: defaultHostName, state: state, app: repositorySiteName, resourceGroup: resourceGroup}")"
+  VAR="$(az webapp list --query "[].{state: state, app: repositorySiteName, resourceGroup: resourceGroup}")"
   echo "{\"services\":$VAR}" > $PWD/services/services.json
 }
 DIR="$PWD/services/"
